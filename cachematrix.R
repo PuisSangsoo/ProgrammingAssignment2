@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## The function returns a list of functions which store a matrix
+## and the value of inverted matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -19,6 +21,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## The function receives the variable created by above function
+## and returns the inverted matrix. If the matrix is called 
+## second time, the function returns the stored value 
+## of inverted matrix.
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
